@@ -1,0 +1,50 @@
+Microsoft Windows [Version 10.0.26100.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Ethnotech\Desktop\roshni\prediction\weatherdata>python modeltest.py
+==================================================
+      Rain Prediction System
+==================================================
+
+Instructions:
+1. Enter 24 feature values separated by spaces.
+2. Use numeric values only.
+3. Example:
+   1 23.5 65 1012 4.5 0 0 1 0 12 25 60 1008 3.2 0 0 1 0 15 22 70 1010 5.1 0
+
+Enter 24 feature values: 1 23.5 65 1012 4.5 0 0 1 0 12 25 60 1008 3.2 0 0 1 0 15 22 70 1010 5.1 0
+
+Prediction Result
+------------------------------
+Rain Expected
+Prediction: YES, it will rain.
+
+C:\Users\Ethnotech\Desktop\roshni\prediction\weatherdata>1 24.2 8.6 16.5 24.2 7.4 -3 30 0 0 0 0 0 42.8 15.4 133.6 1012.1 82.5 14.7 181 15.4 8 10 0
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ethnotech\Desktop\roshni\prediction\weatherdata> 1 24.2 8.6 16.5 24.2 7.4 -3 30 0 0 0 0 0 42.8 15.4 133.6 1012.1 82.5 14.7 181 15.4 8 10 0
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Ethnotech\Desktop\roshni\prediction\weatherdata>python modeltest.py
+==================================================
+      Rain Prediction System
+==================================================
+
+Instructions:
+1. Enter 24 feature values separated by spaces.
+2. Use numeric values only.
+3. Example:
+   1 23.5 65 1012 4.5 0 0 1 0 12 25 60 1008 3.2 0 0 1 0 15 22 70 1010 5.1 0
+
+Enter 24 feature values: 1 24.2 8.6 16.5 24.2 7.4 -3 30 0 0 0 0 0 42.8 15.4 133.6 1012.1 82.5 14.7 181 15.4 8 10 0
+
+Prediction Result
+------------------------------
+No Rain Expected
+Prediction: NO, it will not rain.
+
+C:\Users\Ethnotech\Desktop\roshni\prediction\weatherdata> 1 24.2 8.6 16.5 24.2 7.4 -3 30 0 0 0 0 0 42.8 15.4 133.6 1012.1 82.5 14.7 181 15.4 8 10 0
+
+
